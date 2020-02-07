@@ -13,7 +13,16 @@ npm start
 
 ## Development
 
-TODO
+After making changes, add unit tests to cover the new code. To run the unit tests:
+
+```bash
+npm run test
+
+## for watch mode
+npm run test:watch
+```
+
+There is a coverage requirement of 90% (statements, branches, functions, and lines).
 
 ## Contributing
 
