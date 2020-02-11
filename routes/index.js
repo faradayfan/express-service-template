@@ -1,9 +1,8 @@
 const express = require('express')
-const router = express.Router()
 
-/* GET home page. */
-router.get('/', (req, res, next) => {
-  res.json({ message: 'success' })
-})
+const setupRoutes = (router = express.Router()) => {
+  router.use('/health', require('./health'))
+  return router
+}
 
-module.exports = router
+module.exports = setupRoutes()
