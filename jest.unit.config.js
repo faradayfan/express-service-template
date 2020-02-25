@@ -17,6 +17,7 @@ module.exports = {
     '<rootDir>/coverage',
     '<rootDir>/.eslintrc.js',
     '<rootDir>/jest.*.config.js',
+    '<rootDir>/swagger.docs.js',
     '<rootDir>/node_modules',
     '<rootDir>/routes'
   ],

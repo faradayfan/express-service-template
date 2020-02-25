@@ -1,4 +1,5 @@
 # Express Service Template
+![](https://github.com/chgdev/express-service-template/workflows/Node.js%20CI/badge.svg)
 
 ## Dependencies
 
